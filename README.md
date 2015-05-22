@@ -12,7 +12,7 @@ Then change `composer.json` file and try my code:
 ```
 cp composer_agentsib.json composer.json
 php composer.phar update
-php composer.php slack send
+php composer.php slack:send
 ```
 
 This is result:
