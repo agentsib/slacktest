@@ -1,0 +1,20 @@
+{
+    "name": "agentsib/testslack",
+    "type": "project",
+    "require": {
+        "symfony/console": "^2.6",
+        "cleentfaar/slack": "dev-master",
+        "symfony/yaml": "^2.6"
+    },
+    "authors": [
+        {
+            "name": "AgentSIB",
+            "email": "agentsib@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "AgentSIB\\TestApp\\" : "src/"
+        }
+    }
+}
